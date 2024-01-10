@@ -1,14 +1,15 @@
-# Using MongoDB for Audits in Laravel
+# MongoDB-Based Auditing in Laravel
 
-You can leverage MongoDB to store your audits table in a Laravel application. Follow these steps to set up MongoDB for auditing:
+This guide details how to configure MongoDB for audit logs within a Laravel application.
 
-## Steps
+## Configuration Steps
 
 1. **Endpoint**: `/audit_settings/create`
     - **Method**: GET
     - **Description**:  
-    **If you intend to change the database for auditing purposes:**
-        - Specify the desired database type.
-        - Provide the corresponding connection string
-    **If you prefer to store audits in the same database:**
-        - Leave the connection string empty.
+      Configuring Auditing Database Settings:
+        - **Changing the Database for Auditing**:
+            - Specify the desired database type.
+            - Provide the corresponding connection string.
+        - **Storing Audits in the Same Database**:
+            - Leave the connection string empty.
